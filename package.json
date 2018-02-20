@@ -6,7 +6,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel -p 3000 ./src/client/index.html"
+    "start": "run-p start:*",
+    "start:client": "parcel -p 3000 ./src/client/index.html",
+    "start:server": "node ./src/server.js"
   },
   "dependencies": {
     "bulb": "^1.1.1",
@@ -14,6 +16,7 @@
     "ws": "^4.0.0"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.2",
     "parcel-bundler": "^1.6.2"
   }
 }
