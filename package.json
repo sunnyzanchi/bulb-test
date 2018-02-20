@@ -1,0 +1,18 @@
+{
+  "name": "bulb-test",
+  "version": "0.1.0",
+  "description": "Testing Bulb, a reactive library",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel -p 3000 ./src/client/index.html"
+  },
+  "dependencies": {
+    "bulb": "^1.1.1",
+    "sockette": "^2.0.0",
+    "ws": "^4.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2"
+  }
+}
