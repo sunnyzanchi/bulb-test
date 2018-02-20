@@ -2,6 +2,7 @@
   "name": "bulb-test",
   "version": "0.1.0",
   "description": "Testing Bulb, a reactive library",
+  "author": "Zanchi <emzanchi@gmail.com> (https://github.com/zanchi)",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
